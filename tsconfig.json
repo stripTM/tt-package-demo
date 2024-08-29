@@ -15,16 +15,10 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
 
-    /* Si se transpila con TypeScript: */
-    "module": "NodeNext",
-    "outDir": "dist",
-    "rootDir": "src",
-    "sourceMap": true,
-
-    /* Y si estás construyendo para una biblioteca: */
-    "declaration": true,
-
-    /* Y si estás construyendo para una biblioteca en un monorepo: */
-    "declarationMap": true
+     // ...other options
+     /* no requiere acceso a las API del DOM */
+     "lib": ["es2022"],
+     "noEmit": true,
+     "module": "Preserve"
   }
 }
