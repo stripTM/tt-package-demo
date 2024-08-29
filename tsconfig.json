@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Opciones base: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    /* Rigurosidad */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    /* Si se transpila con TypeScript: */
+    "module": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+
+    /* Y si estás construyendo para una biblioteca: */
+    "declaration": true,
+
+    /* Y si estás construyendo para una biblioteca en un monorepo: */
+    "declarationMap": true
+  }
+}

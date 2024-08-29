@@ -1,0 +1,31 @@
+{
+  "name": "tt-package-demo",
+  "version": "1.0.0",
+  "description": "Un paquete de demostración para Total TypeScript",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/striptm/tt-package-demo",
+  "bugs": {
+    "url": "https://github.com/striptm/tt-package-demo/issues"
+  },
+  "author": "Autor original: Matt Pocock <team@totaltypescript.com> (https://totaltypescript.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/striptm/tt-package-demo.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
