@@ -15,10 +15,10 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
 
-     // ...other options
-     /* no requiere acceso a las API del DOM */
-     "lib": ["es2022"],
-     "noEmit": true,
-     "module": "Preserve"
+    // ...other options
+    /* no requiere acceso a las API del DOM */
+    "lib": ["es2022"],
+    "noEmit": true,
+    "module": "Preserve"
   }
 }
