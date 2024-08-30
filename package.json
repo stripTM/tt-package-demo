@@ -1,6 +1,6 @@
 {
-  "name": "tt-package-demo",
-  "version": "1.0.1",
+  "name": "@striptm/tt-package-demo",
+  "version": "1.0.2",
   "description": "Un paquete de demostración para Total TypeScript",
   "keywords": [
     "demo",
