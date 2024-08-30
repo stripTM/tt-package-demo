@@ -1,6 +1,6 @@
 {
   "name": "@striptm/tt-package-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Un paquete de demostración para Total TypeScript",
   "keywords": [
     "demo",
@@ -14,9 +14,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/striptm/tt-package-demo.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "tsup",
